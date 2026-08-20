@@ -19,6 +19,6 @@ py -m pip install -r requirements.txt
 
 ### 3. Run Streamlit app
 ```bash
-py -m streamlit run app.py
+py -m streamlit run dashboard/app.py
 
 ```
