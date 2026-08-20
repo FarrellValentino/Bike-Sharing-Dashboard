@@ -9,7 +9,7 @@ st.set_page_config(page_title="Bike Sharing Dashboard", page_icon="🚲", layout
 # Load data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("main_data.csv")
+    data = pd.read_csv("dashboard/main_data.csv")
     data['dteday'] = pd.to_datetime(data['dteday'])
     
     # Memastikan kolom time_category ada 
