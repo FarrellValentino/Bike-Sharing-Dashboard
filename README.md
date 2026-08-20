@@ -2,7 +2,7 @@
 
 Dashboard interaktif ini dibuat untuk menganalisis data penyewaan sepeda (Bike Sharing Dataset) berdasarkan faktor lingkungan, musim, dan waktu operasional. 
 
-Link dashboard : https://bikesharing-farrell.streamlit.app/#bike-sharing-data-dashboard
+Link dashboard : https://bike-sharing-dashboard-tokbnnmgaxcqjb47f9w4bq.streamlit.app/
 
 ## Cara Menjalankan Dashboard Secara Lokal
 
