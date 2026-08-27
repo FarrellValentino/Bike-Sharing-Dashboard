@@ -18,7 +18,7 @@ def load_data():
             if 5 <= hour < 12: return 'Pagi'
             elif 12 <= hour < 17: return 'Siang'
             elif 17 <= hour < 21: return 'Sore'
-            else: return 'Malam'
+            else: return 'Malam' 
         data['time_category'] = data['hour'].apply(categorize_time)
         
     return data
