@@ -2,23 +2,25 @@
 
 Dashboard interaktif ini dibuat untuk menganalisis data penyewaan sepeda (Bike Sharing Dataset) berdasarkan faktor lingkungan, musim, dan waktu operasional. 
 
-Link dashboard : https://bike-sharing-dashboard-tokbnnmgaxcqjb47f9w4bq.streamlit.app/
+Link dashboard: https://bike-sharing-dashboard-tokbnnmgaxcqjb47f9w4bq.streamlit.app/
 
-## Cara Menjalankan Dashboard Secara Lokal
-
-Untuk menjalankan project ini secara lokal , ikuti langkah-langkah berikut:
-
-### 1. Persiapan awal
-Download / clone repository ini lalu buka foldernya di terminal / IDE yg digunakan
-
-### 2. Install Library
-Buka terminal dan jalankan perintah berikut untuk menginstal semua library yang dibutuhkan:
+## Setup Environment - Anaconda
 ```bash
-py -m pip install -r requirements.txt
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
 ```
 
-### 3. Run Streamlit app
+## Setup Environment - Shell/ Terminal
 ```bash
-py -m streamlit run dashboard/app.py
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
+## Run Streamlit App
+```bash
+py -m streamlit run dashboard/app.py 
 ```
